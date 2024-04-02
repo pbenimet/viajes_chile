@@ -51,7 +51,7 @@ body {
                 text-align: center;
                 }
 
-@media screen and (max-width: 780px)    {
+@media screen and (max-width: 576px)    {
                                         #presentacion   {
                                                         display:none;
                                                         }}
