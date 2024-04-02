@@ -50,6 +50,11 @@ body {
                 color: white;
                 text-align: center;
                 }
+
+@media screen and (min-width: 576px)    {
+                                        #presentacion   {
+                                                        display:none;
+                                                        }}
         #presentacion h4        {
                                 min-width: 100vw;
                                 max-height: 3rem;
