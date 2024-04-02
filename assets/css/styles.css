@@ -1,0 +1,164 @@
+body {
+        font-family: "Cabin", sans-serif;
+        font-size: 16px;
+        color:white;
+        background-color: black;
+}
+
+/*header*/
+        #galeria        {
+                        position:relative;
+                        min-width: 100vw;
+                        min-height: 67vw;
+                        }
+        #barra_nav      {
+                        position: absolute;
+                        top: 0px;
+                        left: 0;
+                        z-index: 1;
+                        width: 100vw;
+                        min-height: 10vw;
+                        max-height: 12vw;
+                        }
+                        #logo_viajes    {
+                                        height: 3rem;
+                                        margin-left: 2vw;
+                                        }
+                        #barra_nav span {
+                                        font-family: "Cabin", sans-serif;
+                                        font-size: 1.25vmax;
+                                        color:white;
+                                        }
+                #barra_nav .navbarmenu  {
+                                        margin-right: 3vw;
+                                        }
+                        #barra_nav button       {
+                                                border-color: white;
+                                                margin-right: 3vw;
+                                                }
+                        #barra_nav a.nav-link   {
+                                                font-family: "Cabin", sans-serif;
+                                                font-size: 1.25vmax;
+                                                color:white;
+                                                margin-right: 3vw;
+                                                }
+/*header*/
+
+/*presentacion*/
+#presentacion   {
+                background-color: black;
+                color: white;
+                text-align: center;
+                }
+        #presentacion h4        {
+                                min-width: 100vw;
+                                max-height: 3rem;
+                                color: white;
+                                padding-top:3vw;
+                                }
+        #presentacion .row      {
+                                background-color: black;
+                                padding-left: 3vw;
+                                padding-right: 3vw;
+                                }
+                #presentacion div.col   {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding-top: 3vw;
+                                        padding-bottom: 3vw;
+                                        }
+                        #presentacion i {
+                                        background-color: rgb(0, 170, 225);
+                                        min-height: 2em;
+                                        padding-top: 0.5em;
+                                        font-size: 2em;
+                                        }
+                        #presentacion .card     {
+                                                border:none;
+                                                min-height: 10vw;
+                                                }
+                                #presentacion .card-body        {
+                                                                background-color: black;
+                                                                color: white;
+                                                                }
+/*presentacion*/
+
+/*destacados*/
+#destacados     {
+                background-color: black;
+                color: white;
+                text-align: center;
+                }
+        #destacados h4  {
+                        min-width: 100vw;
+                        height:3em;
+                        color: white;
+                        padding-top: 1rem;
+                        background-color: black;
+                        }
+        #destacados .row        {
+                                background-color: black;
+                                padding-left: 3vw;
+                                padding-right: 3vw;
+                                }
+                #destacados div.col     {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding-top: 0.5em;
+                                        padding-bottom: 0.5em;
+                                        }
+                #destacaos div.card     {
+                                        background-color: black;
+                                        padding-top: 0.5em;
+                                        font-size: 2em;                                                                                
+                                        }                                        
+                        #destacados img.card-img-top    {
+                                                        height: 13rem;
+                                                        }
+                        #destacados div.card-body       {
+                                                        background-color: rgb(0, 170, 225);
+                                                        color: white;
+                                                        border:none;
+                                                        }
+/*destacados*/
+
+/*datoscontacto*/
+#datoscontacto  {
+                color: white;
+                text-align: center;
+                }
+        #datoscontacto h4       {
+                                background-color: black;
+                                padding: 1rem;
+                                color: white;
+                                }          
+        #datoscontacto form     {
+                                padding: 3rem;
+                                background-color: black;
+                                text-align: left;
+                                }
+                input#datomensaje.form-control  {
+                                                min-height: 5rem;
+                                                }
+                #datoscontacto button   {
+                                        background-color: rgb(0, 170, 225);
+                                        }                          
+/*datoscontacto*/
+
+/*footer*/
+footer  {        
+        padding: 1rem;
+        background-color: rgb(0, 170, 225);
+        color: white;
+        }
+        #link_marca     {
+                        color:white;
+                        }
+        footer .col-6   {
+                        font-size:1.5em;
+                        text-align: center;
+                        color: white; 
+                        }
+/*footer*/
